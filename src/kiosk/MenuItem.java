@@ -23,9 +23,15 @@ public class MenuItem {
         this.bIntro = bIntro;
     }
 
-
     //기능
-
+    @Override
+    public String toString() {
+        return "MenuItem{" +
+                "name='" + name + '\'' +
+                ", bPrice='" + bPrice + '\'' +
+                ", bIntro='" + bIntro + '\'' +
+                '}';
+    }
 
 }
 
