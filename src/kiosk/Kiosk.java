@@ -20,12 +20,19 @@ public class Kiosk {
     //객체 생성 (인스턴스화)
     //3. 기능
 
-
+    //3-2 start()
+    public void start() {
+        Scanner ksc = new Scanner(System.in);
 
         //메뉴판
         System.out.println("[ SHAKESHACK MENU ]");
-
-//        }
+        for (int i = 0; i < menuItemList.size(); i++){
+           MenuItem menuItem = menuItemList.get(i);
+           String name = menuItem.getName();
+           int bPrice = menuItem.getBPrice();
+           String bIntro = menuItem.getBIntro();
+            System.out.println(name + bPrice + bIntro);
+        }
 
         System.out.println("주문할 햄버거를 입력하세요: ");
         int forder = ksc.nextInt();
