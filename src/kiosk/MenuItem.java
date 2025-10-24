@@ -24,7 +24,6 @@ public class MenuItem {
     }
 
     //기능
-
     public String getName() {
         return  name;
     }
@@ -43,9 +42,4 @@ public class MenuItem {
                 ", bIntro='" + bIntro + '\'' +
                 '}';
     }
-
 }
-
-// 변수에 담아라
-//반복할 때 반복문 써라
-// 조회할 때는 메소드 getter를 사용해라
