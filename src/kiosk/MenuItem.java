@@ -2,14 +2,12 @@ package kiosk;
 
 public class MenuItem {
     //TODO 속성
-
     //1.필드 생성 (이름, 가격, 음식소개)
     private String name;
     private int Price;
     private String Intro;
 
     //TODO 생성자
-
     // 규칙
     //클래스와 이름이 같다.
     //반환 데이터 타입이 없다.
@@ -36,10 +34,6 @@ public class MenuItem {
     //4. 주소 위치 -> 문자열로 출력
     @Override
     public String toString() {
-        return "MenuItem{" +
-                "burger='" + name + '\'' +
-                ", bPrice='" + Price + '\'' +
-                ", bIntro='" + Intro + '\'' +
-                '}';
+        return "MenuItem{" + "burger='" + name + '\'' + ", bPrice='" + Price + '\'' + ", bIntro='" + Intro + '\'' + '}';
     }
 }

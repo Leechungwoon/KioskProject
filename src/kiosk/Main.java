@@ -44,8 +44,8 @@ public class Main {
         menus.add(desertsrMenu);
 
         // Kiosk 객체 생성
-        Kiosk kiosk = new Kiosk(menus); // 태현 튜터님과 한 부분
-        // Kiosk 객체 생성
-        kiosk.start(); // 태현 튜터님과 한 부분
+        Kiosk kiosk = new Kiosk(menus);
+        // Kiosk 시작하는 기능
+        kiosk.start();
     }
 }
